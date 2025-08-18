@@ -29,9 +29,11 @@ o Provide user-friendly documentation that explains how to use the application a
 • Organize your project into files, such as:
 
 /todo_app
-├── todo.py        # Main application logic
-├── tasks.json     # File to store tasks (or tasks.csv)
-└── README.md      # Documentation
+-- todo.py # Main application logic
+  |--todo_cli.py
+  |--todo_gui.py
+-- tasks.json     # File to store tasks (or tasks.csv)
+-- README.md      # Documentation
 
 **3. Implement Core Features:**
 • _Task Class:_ Define a class to represent a task:
@@ -69,15 +71,13 @@ print("2. View Tasks")
 print("3. Mark Task Completed")
 print("4. Delete Task")
 print("5. Exit")
+
 choice = input("Choose an option: ")
-if choice == '1':
-# Code to add a task
-elif choice == '2':
-# Code to display tasks
-elif choice == '3':
-# Code to mark a task as completed
-elif choice == '4':
-# Code to delete a task
+
+if choice == '1': # Code to add tasks
+elif choice == '2': #Code to display tasks
+elif choice == '3': #Code to mark a task as completed
+elif choice == '4': #Code to delete a task
 elif choice == '5':
 save_tasks(tasks)
 break
