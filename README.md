@@ -1,4 +1,6 @@
 # Personal To-Do List Application
+**Company:** VaultOfCodes
+**Author:** Kashish Gupta (Python Intern)
 
 Two implementations:
 - **CLI version**: `todo_cli.py`
