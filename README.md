@@ -12,6 +12,8 @@ Both share the same `tasks.json` file.
 ```bash
 python todo_cli.py
 ```
+![Uploading image.png…]()
+
 
 ## Run GUI
 ```bash
