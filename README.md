@@ -28,4 +28,4 @@ python todo_gui.py
 - Mark completed
 - Categorization
 - JSON storage
-- 
+
