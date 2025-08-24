@@ -17,9 +17,12 @@ python todo_cli.py
 ```bash
 python todo_gui.py
 ```
+<img width="1429" height="752" alt="image" src="https://github.com/user-attachments/assets/7a87ba46-15d9-4e0d-9104-08aa64b46a06" />
+
 
 ## Features
 - Add, view, edit, delete tasks
 - Mark completed
 - Categorization
 - JSON storage
+- 
